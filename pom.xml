@@ -19,6 +19,7 @@
         <springfox-swagger.version>3.0.0</springfox-swagger.version>
         <modelmapper.version>2.3.5</modelmapper.version>
         <testcontainers.version>1.15.0</testcontainers.version>
+<!--        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>-->
     </properties>
 
     <dependencies>
