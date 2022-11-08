@@ -14,7 +14,7 @@ import org.springframework.http.MediaType;
    usar o "RANDOM_PORT" é uma boa prática, pois nao interfere na porta utilizada no build, muito importante para testar aplicações que envolvem Integração Continua
 */
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
-class ParkingControllerTest { //extends AbstractContainerBase
+class ParkingControllerTest extends AbstractContainerBase {
 
     @LocalServerPort
     private int randomPort;
