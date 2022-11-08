@@ -23,7 +23,8 @@ public class ParkingCheckout {
         if (minutes <= TWENTY_FOUR_HOUR) {
             bill = ONE_HOUR_VALUE;
             int hours = (int) (minutes / ONE_HOUR);
-            System.out.println(hours);
+
+//            System.out.println(hours);
             for (int i = 0; i < hours; i++) {
                 bill += ADDITIONAL_PER_HOUR_VALUE;
             }
@@ -31,7 +32,7 @@ public class ParkingCheckout {
         }
 
         int days = (int) (minutes / TWENTY_FOUR_HOUR);
-        System.out.println(days);
+//        System.out.println(days);
         for (int i = 0; i < days; i++) {
             bill += DAY_VALUE;
         }

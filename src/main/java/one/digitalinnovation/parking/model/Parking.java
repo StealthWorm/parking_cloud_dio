@@ -1,12 +1,20 @@
 package one.digitalinnovation.parking.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.time.LocalDateTime;
-
+@Entity
 public class Parking {
+    @Id
     private String id;
+    @Column(length = 50, nullable = false)
     private String license;
+    @Column(length = 50, nullable = false)
     private String state;
+    @Column(length = 50, nullable = false)
     private String model;
+    @Column(length = 50, nullable = false)
     private String color;
     private LocalDateTime entryDate;
     private LocalDateTime exitDate;
