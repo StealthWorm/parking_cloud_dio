@@ -5,7 +5,11 @@ In this project I had the challenge of developing a set of APIs using **Spring B
 
 You can access the Swagger Endpoints using the url below, after execute the main project
 > http://localhost:8080/swagger-ui/index.html
-> 
+
+Or, using Heroku interface, using the link below:<br>
+
+<h3>[Parking API Endepoint](https://parking-tps.herokuapp.com/swagger-ui/index.html/) </h3>
+
 > user: user <br>
 > password: 12345
 
@@ -21,5 +25,4 @@ docker stop parking-db
 docker start parking-db
 
 ### API Endpoints Test
-[Link To Swagger Interface](https://dashboard.heroku.com/apps/parking-tps)
 
