@@ -14,7 +14,7 @@ You can access the Swagger Endpoints using the url below, after execute the main
 
 Or, using Heroku interface, using the link below:<br>
 
-<h3>https://parking-tps.herokuapp.com/swagger-ui/index.html/ </h3>
+<h3>https://parking-tps.herokuapp.com/swagger-ui/index.html#/ </h3>
 
 > user: user <br>
 > password: 12345
