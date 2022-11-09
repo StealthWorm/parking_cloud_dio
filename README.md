@@ -11,3 +11,8 @@ docker stop parking-db
 
 ### Start Database
 docker start parking-db
+
+### API Endpoints Test
+[Link To Swagger Interface](https://dashboard.heroku.com/apps/parking-tps)
+> user: user
+> password? 12345
