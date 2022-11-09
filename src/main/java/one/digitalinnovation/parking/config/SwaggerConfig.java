@@ -51,15 +51,15 @@ public class SwaggerConfig {
         return new SecurityReference("basicAuth", new AuthorizationScope[0]);
     }
 
-//    private List<SecurityScheme> basicScheme() {
-//        List<SecurityScheme> schemeList = new ArrayList<>();
-//        schemeList.add(new BasicAuth("basicAuth"));
-//        return schemeList;
-//    }
+    private List<SecurityScheme> basicScheme() {
+        List<SecurityScheme> schemeList = new ArrayList<>();
+        schemeList.add(new BasicAuth("basicAuth"));
+        return schemeList;
+    }
 
-//    private ApiKey apiKey() {
-//        return new ApiKey("apiKey", "Authorization", "header");
-//    }
+    private ApiKey apiKey() {
+        return new ApiKey("apiKey", "Authorization", "header");
+    }
 
     private ApiInfo metaData() {
         return new ApiInfoBuilder()
