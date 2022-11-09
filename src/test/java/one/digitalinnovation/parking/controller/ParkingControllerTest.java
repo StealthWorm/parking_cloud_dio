@@ -30,7 +30,7 @@ class ParkingControllerTest extends AbstractContainerBase {
     void whenFindAllThenCheckResult() {
         RestAssured.given()
                 .auth()
-                .basic("user", "dio@12345678")
+                .basic("user", "12345")
                 .when()
                 .get("/parking")
                 .then()
@@ -43,7 +43,7 @@ class ParkingControllerTest extends AbstractContainerBase {
     void whenFindOneByIdThenCheckResult() {
         RestAssured.given()
                 .auth()
-                .basic("user", "dio@12345678")
+                .basic("user", "12345")
                 .when()
                 .pathParam("id", "991e8dbaabcb4a01ac5c104a47ea1eec")
                 .when()
@@ -64,7 +64,7 @@ class ParkingControllerTest extends AbstractContainerBase {
 
         RestAssured.given()
                 .auth()
-                .basic("user", "dio@12345678")
+                .basic("user", "12345")
                 .when()
                 .when()
                 .contentType(MediaType.APPLICATION_JSON_VALUE)
