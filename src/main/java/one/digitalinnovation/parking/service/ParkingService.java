@@ -35,7 +35,8 @@ public class ParkingService {
 //        parkingMap.put(id2, parking2);
 //    }
 
-    @Transactional(readOnly = true, propagation = Propagation.SUPPORTS) // metodos de find define como read only, pois nao alteram dados
+    @Transactional(readOnly = true, propagation = Propagation.SUPPORTS)
+    // metodos de find define como read only, pois nao alteram dados
     public List<Parking> findAll() {
 //        return parkingMap.values().stream().collect(Collectors.toList());
         return parkingRepository.findAll();
