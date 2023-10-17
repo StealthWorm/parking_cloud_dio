@@ -2,7 +2,7 @@ package one.digitalinnovation.parking.controller;
 
 import org.testcontainers.containers.PostgreSQLContainer;
 
-//classe abstrata que cria um container pre-configurado para postgres, para evitar a flaha dos testes na execução do build
+//classe abstrata que cria um container pre-configurado para postgres, para evitar a falha dos testes na execução do build
 public abstract class AbstractContainerBase {
 
     static final PostgreSQLContainer POSTGRE_SQL_CONTAINER;
